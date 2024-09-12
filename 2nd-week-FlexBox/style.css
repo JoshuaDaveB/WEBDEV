@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0%;
+}
+
+.section{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* This is the first box */
+.firstBox-container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.firstBox1{
+    height: 50%;
+    width: 25%;
+    background-color: rgb(113, 172, 219);
+}
+
+.firstBox2{
+    height: 50%;
+    width: 25%;
+    background-color: rgb(136, 62, 62);
+}
+/* End of first box */
+
+
+/* Start of second box */
+.secondBox-container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.secondBox1{
+    height: 50%;
+    width: 25%;
+    background-color: rgb(113, 172, 219);
+    display: flex;
+    align-items: end;
+}
+
+.secondSub1{
+    height: 50%;
+    width: 50%;
+    background-color: rgb(112, 230, 128);
+}
+
+.secondBox2{
+    height: 50%;
+    width: 25%;
+    background-color: rgb(113, 172, 219);
+    display: flex;
+    align-items: start;
+    justify-content: end;
+}
+
+.secondSub2{
+    height: 50%;
+    width: 50%;
+    background-color: rgb(240, 226, 100);
+}
+/* End of second box */
+    
+/* Start of third box */
+.thirdBox-container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.thirdBox1{
+    height: 50%;
+    width: 15%;
+    background-color: rgb(113, 172, 219);
+    display: flex;
+    align-items: end;
+}
+
+.thirdBox2{
+    height: 50%;
+    width: 15%;
+    background-color: rgb(113, 219, 154);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.thirdSub2{
+    height: 40%;
+    width: 20%;
+    background-color: rgb(47, 45, 214);
+}
+
+.thirdBox3{
+    height: 50%;
+    width: 15%;
+    background-color: rgb(113, 172, 219);
+    display: flex;
+    align-items: end;
+}
+
+/* End of third box */
+
+/* Start of fourth box */
+.fourthBox-container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.fourthBox1{
+    height: 50%;
+    width: 10%;
+    background-color: rgb(113, 172, 219);
+    display: flex;
+    align-items: end;
+}
+
+.fourthBox2{
+    height: 50%;
+    width: 10%;
+    background-color: rgb(240, 226, 100);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fourthBox3{
+    height: 50%;
+    width: 10%;
+    background-color: rgb(113, 172, 219);
+    display: flex;
+    align-items: end;
+}
+
+.fourthBox4-container{
+    height: 50%;
+    width: 10%;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.fourthBox4-container .top{
+    height: 50%;
+    width: 100%;
+    background-color: rgb(148, 67, 43);
+}
+
+.fourthBox4-container .bottom{
+    height: 50%;
+    width: 100%;
+    background-color: rgb(113, 172, 219);
+}
+/* End of fourth box */
