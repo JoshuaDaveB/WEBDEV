@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0%;
+}
+
+.section{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* This is the first box */
+.firstBox-container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.firstBox1{
+    height: 50%;
+    width: 30%;
+    background-color: rgb(113, 172, 219);
+    border: 2px solid white;
+}
+
+.firstBox2{
+    height: 50%;
+    width: 30%;
+    background-color: rgb(136, 62, 62);
+    border: 2px solid white;
+}
+/* End of first box */
+
+
+/* Start of second box */
+.secondBox-container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.secondBox1{
+    height: 50%;
+    width: 30%;
+    background-color: rgb(113, 172, 219);
+    border: 2px solid white;
+}
+
+.secondSub1{
+    display: flex;
+}
+
+
+.secondBox2{
+    height: 50%;
+    width: 30%;
+    background-color: rgb(113, 172, 219);
+    border: 2px solid white;
+}
+/* End of second box */
+    
